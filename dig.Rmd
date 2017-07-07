@@ -86,8 +86,8 @@ x <- rbind(rxn,trig)
 plt <- ggplot(x, aes(x=time_epoch, y=value, color = name)) +
   geom_point(size=3) +
   geom_line(size=1.5) +
-  ggtitle("Reaction Intensity") +
-    theme(plot.title = element_text(size = 20, face = 'bold', hjust = .5)
+  ggtitle("Triggers and Reactions") +
+    theme(plot.title = element_text(size = 15, face = 'bold', hjust = .5)
         , panel.background = element_blank() )
 plt
 ```
